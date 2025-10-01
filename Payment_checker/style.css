@@ -1,0 +1,62 @@
+/* Reset some basics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Form container */
+form {
+  background: #f9f9f9;
+  padding: 30px;
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkbox & radio spacing */
+form input[type="checkbox"],
+form input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Label styling */
+form label {
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Space between elements */
+form br {
+  margin-bottom: 12px;
+}
+
+/* Submit button */
+#submitbtn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #881515;          /* main color */
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect for button */
+#submitbtn:hover {
+  background: #a61a1a;          /* darker red on hover */
+}
+
+/* Result text */
+#subresult {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #555;
+}
